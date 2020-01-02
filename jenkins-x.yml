@@ -1,0 +1,10 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jx-prod
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jx-prod
+  - name: CHART_REPOSITORY
+    value: http://chartmuseum.jx.192.168.64.13.nip.io
+  pipelines: {}

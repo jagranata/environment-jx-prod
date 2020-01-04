@@ -9,4 +9,4 @@ dependencies:
   version: 2.3.114
 - name: mdfs-api
   repository: http://192.168.64.13:30006
-  version: 0.0.28
+  version: 0.0.29

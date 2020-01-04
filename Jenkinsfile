@@ -6,6 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
+    CHART_REPOSITORY = "http://192.168.86.24:30001/chartmuseum"
     DEPLOY_NAMESPACE = "jx-prod"
   }
   stages {

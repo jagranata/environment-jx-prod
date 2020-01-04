@@ -25,7 +25,8 @@ pipeline {
       steps {
         container('maven') {
           dir('env') {
-            sh 'jx step helm apply'
+            // commenting out because we use in-cluster environment-controller
+            // sh 'jx step helm apply'
           }
         }
       }

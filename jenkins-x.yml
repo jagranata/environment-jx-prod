@@ -6,5 +6,5 @@ pipelineConfig:
   - name: DEPLOY_NAMESPACE
     value: jx-prod
   - name: CHART_REPOSITORY
-    value: http://chartmuseum.jx.192.168.64.13.nip.io
+    value: "http://192.168.86.24:30001/chartmuseum"
   pipelines: {}

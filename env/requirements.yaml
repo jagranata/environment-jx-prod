@@ -8,5 +8,5 @@ dependencies:
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.114
 - name: mdfs-api
-  repository: http://192.168.64.13:30006
+  repository: http://192.168.86.24:30006
   version: 0.0.34
